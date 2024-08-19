@@ -1,0 +1,2 @@
+recursive-include tutormowazzaf/patches *
+recursive-include tutormowazzaf/templates *
