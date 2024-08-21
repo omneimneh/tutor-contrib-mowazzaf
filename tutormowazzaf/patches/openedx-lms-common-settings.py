@@ -1,0 +1,1 @@
+AUTHENTICATION_BACKENDS += ["common.djangoapps.third_party_auth.mowazaf.MowazafOAuth2"]

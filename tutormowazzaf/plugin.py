@@ -161,10 +161,6 @@ for path in glob(str(importlib_resources.files("tutormowazzaf") / "patches" / "*
     with open(path, encoding="utf-8") as patch_file:
         hooks.Filters.ENV_PATCHES.add_item((os.path.splitext(os.path.basename(path))[0], patch_file.read()))
 
-# yaml_file_path = str(importlib_resources.files("tutormowazzaf") / "patches" / "auth_config.yml")
-# with open(yaml_file_path, encoding="utf-8") as patch_file:
-#     hooks.Filters.ENV_PATCHES.add_item(("common-env-features", patch_file.read()))
-
 
 ########################################
 # CUSTOM JOBS (a.k.a. "do-commands")
