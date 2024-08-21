@@ -8,6 +8,7 @@ To see the list of supported patches:
 *************************************
 
 .. code-block:: bash
+
     tutor config patches list
 
 
